@@ -6,8 +6,6 @@ import random
 SCREENSAVERS = [
     "cmatrix",
     "hollywood",
-    "pipes.sh",
-    "asciiquarium",
     "sl",
     "bb",
     "cacafire",
