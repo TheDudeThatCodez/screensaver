@@ -1,0 +1,16 @@
+[Unit]
+Description=Rotating CLI Screensaver
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/rotating_screensaver.py
+Restart=always
+User=REPLACE_ME
+WorkingDirectory=/home/REPLACE_ME
+StandardOutput=tty
+StandardError=tty
+TTYPath=/dev/tty1
+
+[Install]
+WantedBy=multi-user.target
