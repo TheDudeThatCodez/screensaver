@@ -8,7 +8,7 @@ SERVICE_NAME=rotating-screensaver
 echo "Installing dependencies..."
 
 sudo apt update
-sudo apt install -y cmatrix hollywood sl bb libcaca0 aview cbonsai nyancat
+sudo apt install -y termsaver 
 
 echo "Copying files..."
 
